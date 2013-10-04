@@ -1,0 +1,107 @@
+body {
+	direction:rtl;
+}
+#wp-calendar caption,
+.navbar .nav,
+.text-divider2{text-align:right;}
+.event_readmore .event_map{text-align:right;}
+
+span.font_bread i{margin-left:8px;font-size:32px;}
+.testimonials .flex-direction-nav{width:100%;left:0px;}
+
+.blog_listing_wrapper h2 span.date_month_post:last-child, .blog_listing_wrapper span.date_month_post{border-left:1px solid #D0D0D0;float:right;border-right:0px;margin-right:0px;padding-right:0px;padding-left:20px;margin-left:20px;}
+.event_detail_info{right:40px;}
+.flex-control-nav li:first-child{ margin:0 0 0 5px !important;}
+#respond{
+float:none !important;
+}
+
+#search-text{
+float:right;
+}
+.navbar .nav,
+.navbar .nav > li{
+float:right;
+}
+.footer_3 #latest_tweets{padding-left:0px !important;padding-right:50px;}
+.footer_3 #latest_tweets li{width:90% !important;}
+.footer_nav li:first-child{margin-left:20px !important;}
+
+.nav_search button{right:185px !important;}
+#cart .dropdown_cart_img img{margin:0px 0px 0px 8px;}
+.widget #cart .product_name{float:right !important;}
+.pull-left{
+float:right !important;
+}
+#page_title{direction:rtl !important;}
+#page_title h2 {    border-right: 3px solid #1CC3C9;    padding-right: 12px;	border-left:0;	padding-left:0;}
+.woocommerce .woocommerce-result-count, .woocommerce-page .woocommerce-result-count{float:right;}
+.cart_btn_wrapper{float:left;}
+.woocommerce a.button.alt, .woocommerce-page a.button.alt, .woocommerce button.button.alt, .woocommerce-page button.button.alt, .woocommerce input.button.alt, .woocommerce-page input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce-page #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page #content input.button.alt{ margin-right:10px;}
+.total_cart{float:left;}
+.cart_table_holder table .product-name{text-align:right;}
+.related_tile_social_wrapper h2{float:right;}
+.related_tile_social_wrapper .blog-bottom{float:left;}
+#author_bio .author_Summary {    border-left: 1px solid #E2E2E2; border-right:0;}
+.view_posts{float:left;}
+.widget.widget_nav_menu .menu li{ background-position: right 14px;}
+.menu li a{text-align:right;}
+.widget.widget_pages li{ background-position: right 14px;}
+.widget_archive li, .widget_categories li{text-align:left;}
+.widget_archive li a, .widget_categories li a{float:right;}
+.blog_item h3{text-align:right;}
+.dropdown .inner, .inner_lyr{text-align:right;}
+.blog_item .read_more{float:left;}
+#map_abs{ right: auto; left:3%;}
+#logo{float:left;}
+#product h3 a, #product h3{text-align:right;}
+#logo{float:right;}
+#nav .navbar{float:right !important;}
+#footer .popular_post ul li span, .sidebar .popular_post ul li span{     float: right;    margin-left: 20px;    margin-right: 0;}
+#donation_box .span10{ float:right;}
+#donation_box h2{ border-left:0; border-right:3px solid #1CC3C9; padding-right:12px; padding-left:0;}
+.news_slider #img_holder{ float:right;}
+.news_slider  .ns_desc{ margin-left:0; margin-right:2.5641%;}
+#news .title{text-align:right; padding-right:0; padding-left:45px;}
+#news .img_title i{right:auto; left:10px;}
+p{direction:rtl;}
+#news .bx-controls-direction a.bx-prev{left:0 !important;}
+#news .bx-controls-direction a.bx-next{left:21px !important;}
+#news .bx-controls-direction{right:auto; left:0;}
+#news .img_title{text-align:right;}
+#news .img_title p{direction:rtl;}
+#slider_blog ul li .img { float:right;}
+#slider_blog ul li .content{margin-left:0; margin-right:2.5641%;}
+#slider_blog .icon_date i{float:right; margin-left:10px;}
+#slider_blog .icon_date{float:right; width:100%;}
+#slider_blog .bx-controls-direction{right:auto; left:20px;}
+#slider_blog .date{float:right;}
+#banner .inner .span9{ float:right;}
+#footer #banner{float:none;}
+#banner #banner_rounded{right:auto; left:30px;}
+.charity_title {    background: url("images/marathon_icon.png") no-repeat scroll 110px center transparent;    margin: 3px 16px -1px 0;    padding: 8px 54px 0 0; float:right;}
+#slider_blog h4{ float:left; width:100%; }
+.footer_nav li{ border-left:1px solid #EEEEEE; border-right:0; padding-left:20px; padding-right:0;}
+#tweets.latest_tweets{ background-position:bottom left;}
+.footer_3 #latest_tweets{ border-right:1px solid #BBBBBB; border-left:0;}
+#footer_left{ float:right;}
+.h-line{left:auto; right:0;}
+.row-fluid .first, .row-fluid [class*="span"]:first-child{margin-right:0 !important; margin-left:0 !important;}
+.charity_counter_wrapper [class*="span"]{margin:0 !important;}
+.charity_counter_wrapper .span1{ float:left !important;}
+.row-fluid [class*="span"] {  float: right;  margin-right: 2.127659574468085%;  *margin-right: 2.074468085106383%;  margin-left:0 !important;}
+.sub-menu { right:0;}
+.sub-menu .sub-menu {right:100%; left:auto;}
+.dropdown-menu, .sub-menu, .navbar-inner .children{ right:0; float:right; left:auto;}
+.navbar .nav > li > .sub-menu:after, .navbar .nav .children:after{right:10px; left:auto;}
+.navbar .nav > li > .sub-menu:before, .navbar .nav .children:before{right:9px; left:auto;}
+.logo_container .span6{ float:left;}
+#product{text-align:right;}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{ float:right;}
+.woocommerce ul.products li.last, .woocommerce-page ul.products li.last{margin:0 3.8% 2.992em 0;}
+.woocommerce .products ul li, .woocommerce-page .products ul li, .woocommerce ul.products li, .woocommerce-page ul.products li{float:right;}
+#header #cart_down_content.dropdown-menu{ left:-33px !important; right:auto !important;}
+#cart_down_content #cart div{float:right;}
+#cart_down_content .quantity{ margin:0 0 0 20px;}
+#header .continue_shopping{ float:left;}
+#icon_toggle{float:left;}

@@ -1,0 +1,43 @@
+/*
+This file is part of IK Facebook.
+
+IK Facebook is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+IK Facebook is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with IK Facebook.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+.ik_fb_gallery_standard{
+	display: block;
+    overflow: hidden;
+}
+
+.ik_fb_gallery_standard_title{
+	display: block;
+}
+
+.ik_fb_gallery_item{
+	background-color: #EEEEEE;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin: 0 8px 8px 0;
+    padding: 10px !important;
+}
+
+img.ik_fb_standard_image{
+	margin: 0 0 8px;
+}
+
+p.ik_fb_standard_image_name {
+    font-size: 12px !important;
+    line-height: 1.5em !important;
+    width: auto !important;
+}

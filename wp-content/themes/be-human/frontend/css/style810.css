@@ -1,0 +1,53 @@
+.mywrapper .thumbnail_image img{
+width:100%;
+}
+.mywrapper .container{
+width:810px;
+}
+.mywrapper .container #nav{
+font-size:16px;
+}
+.mywrapper .gallery-list li img{
+width:49px;
+}
+.mywrapper .shortcode1-2  .blog-main{
+max-width:80%;
+}
+.mywrapper .shortcode1-2  .blog-main .anythingSlider{
+width:100% !important;
+}
+.mywrapper .Small-Thumbnail .blog-thumbnail-video{
+width:auto;
+}
+.mywrapper .Small-Thumbnail{
+overflow:hidden;
+float:left;
+}
+.mywrapper .Small-Thumbnail .anythingSlider{
+max-width:176px;
+}
+.mywrapper .Small-Thumbnail .anythingSlider.anythingSlider-default.activeSlider{
+max-width:170px;
+}
+.mywrapper .Small-Thumbnail .anythingSlider.anythingSlider-default.activeSlider .anythingWindow{
+max-width:170px !important;
+}
+.mywrapper .title_right a{ padding:7px 5px; margin-left:0;}
+#content h3{ font-size:16px;}
+span.countdown_amount { font-size:18px;}
+.wrapper .countdown_section {  padding:25px 4px 30px 5px !important; font-size:11px !important;}
+ .event_more a{ padding:33px 0 32px;}
+
+.wrapper .navbar{
+	font-size:13px;
+}
+.wrapper .thumbnail_image .banner_sliderr li div{
+	bottom:0px;
+	font-size:14px;
+}
+.wrapper .thumbnail_image .banner_sliderr li div p{
+	line-height:0px;
+}
+.menu-item-435,
+.menu-item-441,
+.menu-item-436{display:none;}

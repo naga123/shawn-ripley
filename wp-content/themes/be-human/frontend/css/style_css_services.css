@@ -1,0 +1,182 @@
+
+
+
+.homeBox {
+	position: relative;
+	float: left;
+	display: block;
+	width:100%;
+}
+.homeBox .one_fourth {
+	text-align: center;
+	overflow: hidden;
+	border: 1px solid #E1E1E1;
+	-moz-box-shadow: 0px 1px 0px #ecebeb;
+	-webkit-box-shadow: 0px 1px 0px #ecebeb;
+	height: 255px;
+	margin-right: 10px;
+	background:#202424;
+	-webkit-transition: background 0.5s linear;
+	-moz-transition: background 0.5s linear;
+	-o-transition: background 0.5s linear;
+	transition: background 0.5s linear;
+	width:100%;
+}
+.homeBox .one_fourth a{
+	display: inline-block;
+    padding:6px 15px;
+    background:#9A1A33;
+    color:#fff;
+    text-decoration:none;
+	-webkit-box-shadow: 1px 1px 4px rgba(50, 50, 50, 0.87);
+-moz-box-shadow:    1px 1px 4px rgba(50, 50, 50, 0.87);
+box-shadow:         1px 1px 4px rgba(50, 50, 50, 0.87);
+    font-size:11px;
+}
+
+
+.one_half, .one_third, .two_thirds, .one_fourth, .three_fourths, .one_fifth, .two_fifth, .three_fifths, .four_fifths {
+	position: relative;
+	margin: 0;
+	margin-right: 3.8%;
+	float: left;
+}
+
+.homeBox .one_fourth div, .homeBox .last div {
+	padding: 10px;
+}
+
+
+
+.homeBox .one_fourth:hover{
+	background:#9A1A33;
+
+}
+
+
+
+.homeBox .one_fourth .boxImage {
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+
+
+.homeBox .one_fourth:hover .boxImage {
+	position: relative;
+	-webkit-animation: moveFromTop 350ms ease;
+	-moz-animation: moveFromTop 350ms ease;
+	-ms-animation: moveFromTop 350ms ease;
+}
+
+
+
+.homeBox .one_fourth h2 {
+	color: #fff;
+	margin: 0 0 10px 0;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+
+
+.homeBox .one_fourth:hover h2 {
+	position: relative;
+	color:#fff;
+	-webkit-animation: moveFromTop 200ms ease;
+	-moz-animation: moveFromTop 200ms ease;
+	-ms-animation: moveFromTop 200ms ease;
+}
+
+
+
+
+
+.homeBox .one_fourth .boxDescription {
+	color: #fff;
+	/*margin: 0 0 10px 0;*/
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+
+
+.homeBox .one_fourth:hover .boxDescription {
+	position: relative;
+	color:#fff;
+	-webkit-animation: moveFromBottom 500ms ease-in-out;
+	-moz-animation: moveFromBottom 500ms ease-in-out;
+	-ms-animation: moveFromBottom 500ms ease-in-out;
+}
+
+.no-padding-margin{
+padding:0px !important;
+margin-bottom:0px !important;
+}
+
+
+
+@-webkit-keyframes moveFromTop {
+    from {
+        top: -600px;
+    }
+    to {
+      	top: auto;
+    }
+
+}
+
+@-moz-keyframes moveFromTop {
+
+    from {
+        -moz-transform: translateY(-600%);
+    }
+    to {
+        -moz-transform: translateY(0%);
+    }
+
+}
+
+@-ms-keyframes moveFromTop {
+    from {
+        -ms-transform: translateY(-600%);
+    }
+    to {
+        -ms-transform: translateY(0%);
+    }
+}
+
+
+
+@-webkit-keyframes moveFromBottom {
+    from {
+        bottom: -400px;
+    }
+    to {
+       	top: auto;
+    }
+}
+
+@-moz-keyframes moveFromBottom {
+    from {
+        -moz-transform: translateY(400%);
+    }
+    to {
+        -moz-transform: translateY(0%);
+    }
+}
+
+@-ms-keyframes moveFromBottom {
+    from {
+        -ms-transform: translateY(400%);
+    }
+    to {
+        -ms-transform: translateY(0%);
+    }
+}
